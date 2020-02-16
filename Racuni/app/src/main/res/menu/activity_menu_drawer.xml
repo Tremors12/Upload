@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_QR"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/besedilo_naslov_QR" />
+        <item
+            android:id="@+id/nav_racun"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/besedilo_naslov_racun" />
+    </group>
+
+    <item android:title="Dodatno">
+        <menu>
+            <item
+                android:id="@+id/nav_OAplikaciji"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/besedilo_naslov_OAplikaciji" />
+            <item
+                android:id="@+id/nav_odjava"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/besedilo_naslov_Odjava" />
+        </menu>
+    </item>
+
+</menu>

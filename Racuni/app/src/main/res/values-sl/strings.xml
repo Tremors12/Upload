@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Računi</string>
+    <string name="besedilo_gumb_prijava">Prijava</string>
+    <!--MenuActivity-->
+    <string name="navigator_besedilo_zgoraj">Aplikacija računi</string>
+    <string name="navigator_besedilo_spodaj"></string>
+    <string name="prva_dobrodosli">Dobrodošli v aplikaciji računi</string>
+    <string name="prva_prijava">Potrebno se je prijaviti</string>
+    <string name="napisNaMenuju">Skenirajte položnico</string>
+
+    <!---->
+    <string name="shrani">Shrani podatke</string>
+    <string name="preklici">Prekliči</string>
+
+    <string name="ime">Ime</string>
+    <string name="naslov">Naslov</string>
+    <string name="mesto">Mesto</string>
+    <string name="cena">Plačilo</string>
+    <string name="namen">Namen</string>
+    <string name="ibanPrejemnik">IBAN prejemnika</string>
+    <string name="referencaPrejemnika">Referenca prejemnika</string>
+    <string name="imePrejemnika">Ime prejemnika</string>
+    <string name="ulicaPrejemnika">Ulica prejemnika</string>
+    <string name="krajPrejemnika">Kraj prejemnika</string>
+
+    <!--Shrani sliko-->
+    <string name="naslovSlike">Nalsov</string>
+    <string name="zapiski">Zapiski</string>
+    <string name="datum">Datum</string>
+    <string name="title_activity_mapa_prikaz_qr">Mapa</string>
+    <string name="title_activity_mapa_prikaz_vse">Mapa</string>
+    <string name="mapa">Googlova mapa</string>
+
+    <!--menu-->
+    <string name="besedilo_naslov_QR">Skeniraj QR</string>
+    <string name="besedilo_naslov_racun">Poglej mapo</string>
+    <string name="besedilo_naslov_OAplikaciji">O aplikaciji</string>
+    <string name="besedilo_naslov_Odjava">Odjava</string>
+    <string name="title_activity_menu">Računi</string>
+
+    <!--O aplikaciji -->
+    <string name="OAplikaciji">Ta aplikacija je bila izdelana za univerzitetne namene</string>
+
+
+</resources>

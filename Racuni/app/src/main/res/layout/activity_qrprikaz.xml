@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QRPrikaz">
+
+    <TextView
+        android:id="@+id/UlicaPrejemnika"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:text="@string/ulicaPrejemnika"
+        app:layout_constraintBottom_toTopOf="@+id/eUlicaPrejemnika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eImePrejemnika" />
+
+
+    <EditText
+        android:id="@+id/eUlicaPrejemnika"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/KrajPrejemnika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UlicaPrejemnika" />
+
+    <TextView
+        android:id="@+id/KrajPrejemnika"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:text="@string/krajPrejemnika"
+        app:layout_constraintBottom_toTopOf="@+id/eKrajPrejemnika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eUlicaPrejemnika" />
+
+    <EditText
+        android:id="@+id/eKrajPrejemnika"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/gumbPrekliciQR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KrajPrejemnika" />
+
+    <TextView
+        android:id="@+id/ImePrejemnika"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:text="@string/imePrejemnika"
+        app:layout_constraintBottom_toTopOf="@+id/eImePrejemnika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eReferencaPrejemnika" />
+
+    <EditText
+        android:id="@+id/eImePrejemnika"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/UlicaPrejemnika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImePrejemnika" />
+
+    <TextView
+        android:id="@+id/ReferencaPrejemnika"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:text="@string/referencaPrejemnika"
+        app:layout_constraintBottom_toTopOf="@+id/eReferencaPrejemnika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eIBANPrejemnika" />
+
+    <EditText
+        android:id="@+id/eReferencaPrejemnika"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/ImePrejemnika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ReferencaPrejemnika" />
+
+    <TextView
+        android:id="@+id/IBANPrejemnika"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:text="@string/ibanPrejemnik"
+        app:layout_constraintBottom_toTopOf="@+id/eIBANPrejemnika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eDatum" />
+
+    <EditText
+        android:id="@+id/eIBANPrejemnika"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/ReferencaPrejemnika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IBANPrejemnika" />
+
+    <TextView
+        android:id="@+id/Mesto"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:text="@string/mesto"
+        app:layout_constraintBottom_toTopOf="@+id/eMesto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eNaslov" />
+
+    <Button
+        android:id="@+id/gumbShraniQR"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/adapter_qr_ozadje"
+        android:text="@string/shrani"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gumbPrekliciQR"
+        app:layout_constraintTop_toBottomOf="@+id/eKrajPrejemnika"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <Button
+        android:id="@+id/gumbPrekliciQR"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/adapter_qr_ozadje"
+        android:text="@string/preklici"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gumbShraniQR"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eKrajPrejemnika" />
+
+    <EditText
+        android:id="@+id/eIme"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/Naslov"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ime" />
+
+    <EditText
+        android:id="@+id/eNaslov"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/Mesto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Naslov" />
+
+    <EditText
+        android:id="@+id/eMesto"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/Cena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mesto" />
+
+    <EditText
+        android:id="@+id/eCena"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/Namen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cena" />
+
+    <TextView
+        android:id="@+id/Ime"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:text="@string/ime"
+        app:layout_constraintBottom_toTopOf="@+id/eIme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Naslov"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:text="@string/naslov"
+        app:layout_constraintBottom_toTopOf="@+id/eNaslov"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eIme" />
+
+    <TextView
+        android:id="@+id/Cena"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:text="@string/cena"
+        app:layout_constraintBottom_toTopOf="@+id/eCena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eMesto" />
+
+    <TextView
+        android:id="@+id/Namen"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:text="@string/namen"
+        app:layout_constraintBottom_toTopOf="@+id/eNamen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eCena" />
+
+    <TextView
+        android:id="@+id/Datum"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:text="@string/datum"
+        app:layout_constraintBottom_toTopOf="@+id/eDatum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eNamen" />
+
+    <EditText
+        android:id="@+id/eDatum"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/IBANPrejemnika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Datum" />
+
+    <EditText
+        android:id="@+id/eNamen"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/Datum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Namen" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

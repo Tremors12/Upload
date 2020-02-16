@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "761432207856",
+    "firebase_url": "https://racuni-ebc45.firebaseio.com",
+    "project_id": "racuni-ebc45",
+    "storage_bucket": "racuni-ebc45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761432207856:android:b1604cc02e049e54e9ed35",
+        "android_client_info": {
+          "package_name": "com.racuni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761432207856-7roc9jpg0ee9becnhbq2pje7tediak69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.racuni",
+            "certificate_hash": "b1343a0e58f559f98f501a8cad3af8d7ee73aabf"
+          }
+        },
+        {
+          "client_id": "761432207856-v6g1pv28gr6ebf2rbraslmiqg9s2rhpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-p4ssGfujdSLJIIC44c1IHsq9bWh0unc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761432207856-v6g1pv28gr6ebf2rbraslmiqg9s2rhpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

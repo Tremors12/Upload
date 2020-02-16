@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Bills</string>
+    <string name="besedilo_gumb_prijava">Log in</string>
+    <string name="prva_dobrodosli">Wellcome to bills app</string>
+    <string name="prva_prijava">You must log in</string>
+    <string name="napisNaMenuju">Add your first bill scan</string>
+    <!--Prijavna stran-->
+
+    <string name="title_activity_menu">Bills</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigator_besedilo_zgoraj">Bill app</string>
+    <string name="navigator_besedilo_spodaj"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- NASLOVI -->
+    <string name="besedilo_naslov_QR">Scann QR</string>
+    <string name="besedilo_naslov_racun">View map</string>
+    <string name="besedilo_naslov_OAplikaciji">About app</string>
+    <string name="besedilo_naslov_Odjava">Log out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Shrani podatke iz QR-->
+    <string name="shrani">Save data</string>
+    <string name="preklici">Cancel</string>
+
+    <string name="ime">Name</string>
+    <string name="naslov">Adress</string>
+    <string name="mesto">City</string>
+    <string name="cena">Cost</string>
+    <string name="namen">Intent</string>
+    <string name="ibanPrejemnik">IBAN recipient</string>
+    <string name="referencaPrejemnika">Reference recipient</string>
+    <string name="imePrejemnika">Name recipient</string>
+    <string name="ulicaPrejemnika">Street recipient</string>
+    <string name="krajPrejemnika">Abress recipient</string>
+
+    <!--Shrani sliko-->
+    <string name="naslovSlike">Title</string>
+    <string name="zapiski">Notes</string>
+    <string name="datum">Date</string>
+    <string name="title_activity_mapa_prikaz_qr">Map</string>
+    <string name="title_activity_mapa_prikaz_vse">Map</string>
+    <string name="mapa">Google maps</string>
+
+    <!--O aplikaciji-->
+    <string name="OAplikaciji">This app was made for academic purposes</string>
+
+</resources>
